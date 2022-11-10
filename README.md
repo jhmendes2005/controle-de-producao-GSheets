@@ -25,7 +25,7 @@ Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 
 <ul>
     <li>
-        <h3>João Henrique Mendes, 17 Anos</h3>
+        <h3 style="color:red;">João Henrique Mendes, 17 Anos</h3>
         <a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-mendes-015819207">LinkedIn<a>
     </li>
     <li>
