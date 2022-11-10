@@ -18,7 +18,7 @@ Os arquivos fora do /src/ são arquivos para utilização do Clasp. Ou seja, nã
 Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 
 <p>Aqui temos a planilha principal, onde temos alguns botões e inputs de textos configurados.</p>
-<img src="https://user-images.githubusercontent.com/82621707/201161306-787d5e57-f522-485b-ae8a-5cb95587b2bf.png" style="max-width:200px;"/>
+<img src="https://user-images.githubusercontent.com/82621707/201161306-787d5e57-f522-485b-ae8a-5cb95587b2bf.png" style="width:200px;"/>
 <hr>
 
 <p>Ao acionarmos o botão "NOVA ATIVIDADE MÁQUINA 1", ele extrai as informações de Data apartir do clique, e as mesmas são salvas na célula abaixo.</p>
