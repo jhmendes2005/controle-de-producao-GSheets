@@ -19,3 +19,17 @@ Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 
 <p>Aqui temos a planilha principal, onde temos alguns botões e inputs de textos configurados.</p>
 <img style="max-width:10px;" src="https://user-images.githubusercontent.com/82621707/201161306-787d5e57-f522-485b-ae8a-5cb95587b2bf.png" />
+<hr>
+
+<h2>Autores:</h2>
+
+<ul>
+    <li>
+        <h3>João Henrique Mendes, 17 Anos</h3>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-mendes-015819207">LinkedIn<a>
+    </li>
+    <li>
+        <h3>Soberano Embalagens</h3>
+        <a href="https://www.soberanoembalagens.com.br">Site<a>
+    </li>
+<ul>
