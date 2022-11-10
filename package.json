@@ -1,0 +1,43 @@
+{
+  "name": "cp1",
+  "version": "0.0.1",
+  "description": "Projeto CP1 para as máquinas de extrusão.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.56"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "src/utils/epubjs/**/*.js"
+    ],
+    "globals": [
+      "jest",
+      "expect",
+      "test",
+      "describe",
+      "it",
+      "beforeEach",
+      "beforeAll",
+      "afterAll",
+      "shallow",
+      "snapshot",
+      "localStorage",
+      "FileReader",
+      "FormData",
+      "location",
+      "all",
+      "history",
+      "mount"
+    ]
+  }
+}
