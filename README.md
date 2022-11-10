@@ -18,14 +18,46 @@ Os arquivos fora do /src/ são arquivos para utilização do Clasp. Ou seja, nã
 Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 
 <p>Aqui temos a planilha principal, onde temos alguns botões e inputs de textos configurados.</p>
-<img style="max-width:10px;" src="https://user-images.githubusercontent.com/82621707/201161306-787d5e57-f522-485b-ae8a-5cb95587b2bf.png" />
+<img src="https://user-images.githubusercontent.com/82621707/201161306-787d5e57-f522-485b-ae8a-5cb95587b2bf.png"/>
+<hr>
+
+<p>Ao acionarmos o botão "NOVA ATIVIDADE MÁQUINA 1", ele extrai as informações de Data apartir do clique, e as mesmas são salvas na célula abaixo.</p>
+<img src="https://user-images.githubusercontent.com/82621707/201193177-7d337365-8e04-4c08-9735-f2b8f2794960.png"/>
+<hr>
+
+<p>Aqui faremos as configurações básicas de acordo com nossa máquina! Neste caso temos que preencher 3 itens iniciais, que estão em destaque de acordo com a imagem:</p>
+<img src="https://user-images.githubusercontent.com/82621707/201194158-fd660832-1512-429f-86f5-ab8490ba141e.png">
+<p>No item de cor Amarela, nós deixaremos com o valor padrão, que é a "Produção", futuramente será implementado mais registros como Paradas, que relatará quais quer tipos de paudas por erros, falta de insumos ou etc.<p>
+<p>No item de cor Verde, nós selecionaremos o tamanho da bobina que será produzida, esta lista pode ser editada a qualquer momento na pasta do próprio Google Sheet (irei mostrar em breve).</p>
+<p>No item de cor Azul, segue o mesmo esquema do item Amarelo, deveremos selecionar o tipo de pigmentação que será usada nesta bobina.</p>
+<hr>
+
+<p>Após iniciarmos a produção, nosso extrusor deverá reportar o peso de sua primeira bobina válida, para podermos tirar a média de peso das demais bobinas, facilitando o retrabalho de pesar as demais, já que todas saem no mesmo peso e tamanho, tendo apenas uma margem de erro considerada de 1%.</p>
+<img src="https://user-images.githubusercontent.com/82621707/201196596-b7add302-f9a1-48c3-b35c-ed40c3370070.png"/>
+<hr>
+
+<p>Por último, deverá ser preenchido ao fim da produção, a quantidade de bobinas feitas desta mesma medida.</p>
+<img src="https://user-images.githubusercontent.com/82621707/201197389-875fc5e0-1284-4930-bc00-ded067660c33.png"/>
+<hr>
+
+<p>Após todas as células necessárias respondidas, usaremos o botão "FINALIZAR ATIVIDADE" de sua respectiva máquina, para podermos finalizar a produção atual.</p>
+<img src="https://user-images.githubusercontent.com/82621707/201199116-479232ba-726a-4820-b544-e6ca1defe1dd.png"/>
+<hr>
+
+<p>Após finalizarmos, nossa planilha contabiliza a produção de acordo com a data, ou seja, a soma da produção diária se reseta automaticamente a cada dia que passa!</p>
+<img src="https://user-images.githubusercontent.com/82621707/201199394-71c76bd3-f7a0-4cd3-ab12-dc45625d4b86.png"/>
+<hr>
+
+<p>Mas para onde foram os dados coletados? Os dados coletados se encontram na pasta "produção", e lá contém todas as produções já realizadas e reportadas das três máquinas!</p>
+<img src="https://user-images.githubusercontent.com/82621707/201200096-faddbe27-7f8f-4ef2-ba39-25f5ba7051af.png"/>
+<p>Na planilha nós podemos encontrar todas as informações sobre as produções já reportadas, informações que podem ser filtradas com mais facilidade! A planilha também conta com um sistema que define qual é o operador de acordo com o horário e com a data semanal!</p>
 <hr>
 
 <h2>Autores:</h2>
 
 <ul>
     <li>
-        <h3 style="color:red;">João Henrique Mendes, Desenvolvedor, 17 Anos</h3>
+        <h3>João Henrique Mendes, Desenvolvedor, 17 Anos</h3>
         <a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-mendes-015819207">LinkedIn<a>
     </li>
     <li>
