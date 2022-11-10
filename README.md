@@ -11,7 +11,7 @@
 <p>Bom, primeiramente você deve acessar nosso modelo de <a href="https://docs.google.com/spreadsheets/d/14J-pIhruHfn2RYxb8vkIBeFng88iTih3uTrxfc02u7g/edit#gid=0">PLANILHA</a> que já estão com seus ranges configurados diretamente nas linhas de códigos do sistema. Após acessar, crie uma cópia (ARQUIVO > FAZER UMA CÓPIA) para que você possa editar e ter acesso ao source diretamente da IDE do Google Script, feito isto, basta ir em: EXTENSÕES > APPS SCRIPT, e lá estará o código completo para editar ou utilizar como quiser! Caso queira editar em uma IDE prórpia, recomendamos utilizar o Framework Clasp e importar o código diretamente em sua IDE (lembre-se de sempre dar commit). Lembrando que qualquer tipo de alteração diretamente na planilha, deverá ser atualizado o range do source manualmente!</p>
 
 <p>AVISO:
-Os arquivos fora do /src/ são arquivos para utilização do Clasp. Ou seja, não tem nescessidades caso você vá utilizar o Google Scripts diretamente.</p>
+Os arquivos fora do /src/ são arquivos para utilização do Clasp. Ou seja, não tem nescessidades caso você vá utilizar o Google Scripts diretamente. Utilize os packages caso de algum tipo de erro ao utilizar o Clasp!</p>
 <hr>
 
 <h2>FUNCIONALIDADES:</h2>
