@@ -61,6 +61,7 @@ function setProducaoM1(totalParcial) {
 
     var valorAtualizado = valorAtual + totalParcial;
     setValues(1, 3, valorAtualizado, "operacional");
+    setValues(3, 2, valorAtualizado, "logs");
 };
 
 function setProducaoM2(totalParcial) {
@@ -69,7 +70,8 @@ function setProducaoM2(totalParcial) {
     let valorAtual = sheet.getRange(4, 2).getValue();
     
     var valorAtualizado = valorAtual + totalParcial;
-    setValues(1, 3, valorAtualizado, "operacional");
+    setValues(1, 6, valorAtualizado, "operacional");
+    setValues(4, 2, valorAtualizado, "logs");
 };
 
 function setProducaoM3(totalParcial) {
@@ -78,11 +80,16 @@ function setProducaoM3(totalParcial) {
     let valorAtual = sheet.getRange(5, 2).getValue();
     
     var valorAtualizado = valorAtual + totalParcial;
-    setValues(1, 3, valorAtualizado, "operacional");
+    setValues(1, 9, valorAtualizado, "operacional");
+    setValues(5, 2, valorAtualizado, "logs");
 };
 
 function resetMaquinas() {
     setValues(1, 3, 0, "operacional");
     setValues(1, 6, 0, "operacional");
     setValues(1, 9, 0, "operacional");
+
+    setValues(3, 2, 0, "logs");
+    setValues(4, 2, 0, "logs");
+    setValues(5, 2, 0, "logs");
 };

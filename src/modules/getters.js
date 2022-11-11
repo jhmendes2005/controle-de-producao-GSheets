@@ -30,6 +30,17 @@ function getHora() {
 };
 
 function getId(maquina) {
+  let obj = {
+    s: "s",
+    o: "o",
+    b: "b",
+    e: "e",
+    r: "r",
+    a: "a",
+    n: "n",
+  };
+  const keys = Object.keys(obj);
+
   let oper = getOperador();
   if (oper == "Período 1") {
     oper = "P1"
@@ -37,12 +48,16 @@ function getId(maquina) {
     oper = "P2"
   } else if (oper == "Sábado") {
     oper = "SA"
-  }
+  };
 
+  let serialOper = maquina + oper;
+
+  let serialLetters = obj[keys[Math.floor(Math.random() * 6)]]
   let serial1 = Math.floor(Math.random() * 99);
   let serial2 = Math.floor(Math.random() * 99);
+  let serialGerated = serial1 + serialLetters + serial2
 
-  let id = "" + maquina + oper + serial1 + serial2;
+  let id = serialOper + serialGerated;
 
   return id;
 };

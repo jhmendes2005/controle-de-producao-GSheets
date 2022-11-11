@@ -53,6 +53,23 @@ Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 <p>Na planilha nós podemos encontrar todas as informações sobre as produções já reportadas, informações que podem ser filtradas com mais facilidade! A planilha também conta com um sistema que define qual é o operador de acordo com o horário e com a data semanal!</p>
 <hr>
 
+<h2>PRÓXIMAS ATUALIZAÇÕES PREVISTAS:</h2>
+
+<ul>
+    <li>
+        <h3>Sitema de ID's por registro de produção.</h3>
+        <p>Visando um maior controle, e maior facilidade em localizar produções específicas, implementarei um sistema de geração de ID's para cada produção realizada.</p>
+    </li>
+    <li>
+        <h3>Botão para adição na contagem de bobinas produzidas.</h3>
+        <p>Para uma maior facilidade do operador, iremos adicionar botões para fácil adição de novas bobinas na contagem de Bobina/Unds!</p>
+    </li>
+    <li>
+        <h3></h3>
+        <p></p>
+    </li>
+</ul>
+
 <h2>Autores:</h2>
 
 <ul>
