@@ -14,6 +14,7 @@ function setProducaoFinal1() {
   let bobinaUnds = sheet.getRange(10, 3).getValue();
   let bobinaKg = sheet.getRange(11, 3).getValue();
   let pesoTotal = bobinaKg * bobinaUnds;
+  let id = getId(maquina);
 
   var objProducao = {
     start: sheet.getRange(6, 3).getValue(),
@@ -25,7 +26,8 @@ function setProducaoFinal1() {
     bobinKg: bobinaKg,
     bobinTotal: pesoTotal,
     end: getHora(),
-    oper: getOperador()
+    oper: getOperador(),
+    id: id
   };
   
   let counter = 0;
@@ -41,7 +43,7 @@ function setProducaoFinal1() {
     };
   };
 
-  if (counter === 10) {
+  if (counter === 11) {
     setValues(12, 2, "Produção confirmada!", "operacional");
     setRollsArray(objProducao, "produção");
     
