@@ -53,8 +53,8 @@ function getId(maquina) {
   let serialOper = maquina + oper;
 
   let serialLetters = obj[keys[Math.floor(Math.random() * 6)]]
-  let serial1 = Math.floor(Math.random() * 99);
-  let serial2 = Math.floor(Math.random() * 99);
+  let serial1 = Math.floor(Math.random() * 999);
+  let serial2 = Math.floor(Math.random() * 999);
   let serialGerated = serial1 + serialLetters + serial2
 
   let id = serialOper + serialGerated;

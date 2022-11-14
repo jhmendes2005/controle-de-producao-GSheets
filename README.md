@@ -57,7 +57,7 @@ Obs.: Vou lançar as funcionalidades aqui no README aos poucos.
 
 <ul>
     <li>
-        <h3>Sitema de ID's por registro de produção.</h3>
+        <h3>Sitemas de ID's por registro de produção.</h3>
         <p>Visando um maior controle, e maior facilidade em localizar produções específicas, implementarei um sistema de geração de ID's para cada produção realizada.</p>
     </li>
     <li>

@@ -19,7 +19,6 @@ function setProducaoFinal3() {
   var objProducao = {
     start: sheet.getRange(6, 9).getValue(),
     machine: maquina,
-    service: sheet.getRange(7, 9).getValue(),
     bobin: sheet.getRange(8, 9).getValue(),
     type: sheet.getRange(9, 9).getValue(),
     bobinUnd: bobinaUnds,
@@ -43,7 +42,7 @@ function setProducaoFinal3() {
     };
   };
 
-  if (counter === 11) {
+  if (counter === 10) {
     setValues(12, 8, "Produção confirmada!", "operacional");
     setRollsArray(objProducao, "produção");
     
