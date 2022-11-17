@@ -1,14 +1,14 @@
 {
-  "name": "cp1",
-  "version": "0.0.1",
-  "description": "Projeto CP1 para as máquinas de extrusão.",
+  "name": "cp",
+  "version": "0.1.2",
+  "description": "Projeto CP para as máquinas de extrusão.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "João Henrique Mendes de Oliveira",
+  "license": "MIT",
   "dependencies": {
     "@types/google-apps-script": "^1.0.56"
   },

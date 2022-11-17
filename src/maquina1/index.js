@@ -5,7 +5,7 @@ function setTarefa1() {
     setValues(8, 2, "Bobina:", "operacional")
     setValues(9, 2, "Tipo:", "operacional")
 };
-  
+
 function setProducaoFinal1() {
   let ss = SpreadsheetApp.getActive();
   let sheet = ss.getSheetByName("operacional");

@@ -58,6 +58,5 @@ function getId(maquina) {
   let serialGerated = serial1 + serialLetters + serial2
 
   let id = serialOper + serialGerated;
-
   return id;
 };

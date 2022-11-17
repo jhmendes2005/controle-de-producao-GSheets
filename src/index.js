@@ -2,7 +2,6 @@
 //For use best use, export this project to your prefer IDE, and use the Framework *Clasp* on Yarn or NPM
 
 function onEdit(e) {
- 
   let ss = SpreadsheetApp.getActive();
   let sheet = ss.getSheetByName("operacional");
   let celula1 = sheet.getRange(7, 3).getValue()

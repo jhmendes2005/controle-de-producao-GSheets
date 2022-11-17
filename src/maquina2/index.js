@@ -35,7 +35,6 @@ function setProducaoFinal2() {
     if (objProducao[x] === null || objProducao[x] === "" || objProducao[x] === " ") {
       var erro = "Preencha a tabela corretamente! Está faltando este dado: " + x;
       var result = SpreadsheetApp.getUi().alert("Erro: " + erro, SpreadsheetApp.getUi().ButtonSet.OK);
-      //SpreadsheetApp.getActive().toast("result");
       break
     } else {
       counter++;

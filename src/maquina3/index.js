@@ -59,6 +59,5 @@ function setProducaoFinal3() {
 
     setValues(12, 8, "Produção não confirmada!", "operacional");
 
-  } else {
-  }
+  };
 };

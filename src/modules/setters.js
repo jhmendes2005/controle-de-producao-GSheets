@@ -88,7 +88,6 @@ function resetMaquinas() {
     setValues(1, 3, 0, "operacional");
     setValues(1, 6, 0, "operacional");
     setValues(1, 9, 0, "operacional");
-
     setValues(3, 2, 0, "logs");
     setValues(4, 2, 0, "logs");
     setValues(5, 2, 0, "logs");
